@@ -25,7 +25,7 @@ The project follows a layered architecture pattern:
 Controller Layer → Service Layer → Repository Layer → Database
 ```
 
-![Architecture Diagram]([architecture-diagram.png](https://github.com/luckygarg1810/AutoSaveAPI/blob/master/AutoSaveAPI_Architecture.png))
+![Architecture Diagram](https://github.com/luckygarg1810/AutoSaveAPI/blob/master/AutoSaveAPI_Architecture.png)
 
 ## Project Structure
 
