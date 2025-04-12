@@ -98,18 +98,18 @@ POST /autosave
 
 ### Other Endpoints
 
-- `POST /students` - Create a new student
-- `POST /tests` - Create a new test
+- `POST /student` - Create a new student
+- `POST /test` - Create a new test
 - `POST /questions` - Create a new question
 
 ## Database Schema
 
 The database contains the following main tables:
 
-1. `students` - Stores student information
-2. `tests` - Contains test details
-3. `questions` - Stores the questions for each test
-4. `student_answers` - Maintains the mapping between students, tests, questions, and their answers
+1. `student` - Stores student information
+2. `test` - Contains test details
+3. `question` - Stores the questions for each test
+4. `student_answer` - Maintains the mapping between students, tests, questions, and their answers
 
 ## Setup and Installation
 
@@ -117,7 +117,7 @@ The database contains the following main tables:
 
 - JDK 11 or higher
 - PostgreSQL 12 or higher
-- Maven/Gradle
+- Maven
 
 ### Database Setup
 
